@@ -1,0 +1,27 @@
+# 🎈 Sorting Visualizer
+
+An interactive and animated sorting visualizer built using HTML, CSS, and JavaScript.
+
+## 🚀 Features
+- Bubble Sort, Selection Sort, Insertion Sort
+- Smooth balloon-based animations 🎈
+- Pause, Resume, Stop functionality
+- Adjustable animation speed
+- User input support
+
+## 🎨 Highlights
+- Clean and modern UI
+- Animated gradient background
+- Visual learning of sorting algorithms
+
+## 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## 📌 Live Demo
+(Will be added after deployment)
+
+---
+
+✨ Built with focus on both logic and user experience
