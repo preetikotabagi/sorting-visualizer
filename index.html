@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sorting Visualizer <span>🎈</span></h1>
+
+    <div class="top-controls">
+
+        <input type="text" id="arrayInput" placeholder="Enter numbers (e.g. 5,3,8,1)">
+
+        <select id="algorithm">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+        </select>
+
+        <button id="sortBtn" onclick="startSorting()">Start Sorting</button>
+        <button id="stopBtn" onclick="stopSorting()" disabled>Stop</button>
+        <button id="generateBtn" onclick="generateArray()">Generate New Array</button>
+        <button id="pauseBtn" onclick="togglePause()" disabled>Pause</button>
+    </div>
+
+    <p>Adjust speed to control animation</p>
+
+    <div class="speed-box">
+        Speed:
+        <input type="range" id="speedSlider" min="100" max="1000" value="500">
+    </div>
+
+    <div class="legend">
+
+        <div class="legend-item">
+            <span class="color-box blue"></span> Normal
+        </div>
+
+        <div class="legend-item">
+            <span class="color-box red"></span> Comparing
+        </div>
+
+        <div class="legend-item">
+            <span class="color-box yellow"></span> Selected / Swapping
+        </div>
+
+        <div class="legend-item">
+            <span class="color-box green"></span> Sorted
+        </div>
+
+    </div>
+
+    <div class="main-container">
+        <div id="array-container"></div>
+    </div>
+
+    <!-- ✅ VERY IMPORTANT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
